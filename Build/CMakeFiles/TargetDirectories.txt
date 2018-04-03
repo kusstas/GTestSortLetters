@@ -1,0 +1,3 @@
+/home/kusstas/SortLetter/Build/CMakeFiles/edit_cache.dir
+/home/kusstas/SortLetter/Build/CMakeFiles/rebuild_cache.dir
+/home/kusstas/SortLetter/Build/CMakeFiles/sortLetter.dir
