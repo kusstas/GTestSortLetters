@@ -29,14 +29,17 @@ TEST (testSort, onlyLetters)
     char str1[256] = "zxakb";
     char str2[256] = "XZAKB";
     char str3[256] = "ZXKzxkABab";
+    char str4[256] = "BBABSDDSSzczxzxc";
 
     ASSERT_EQ(true, sortLetters(str1));
     ASSERT_EQ(true, sortLetters(str2));
     ASSERT_EQ(true, sortLetters(str3));
+    ASSERT_EQ(true, sortLetters(str4));
 
     ASSERT_STREQ("abkxz", str1);
     ASSERT_STREQ("ABKXZ", str2);
     ASSERT_STREQ("ABKXZabkxz", str3);
+    ASSERT_STREQ("ABBBDDSSSccxxzzz", str4);
 }
 
 TEST (testSort, notOnlyLetters)
