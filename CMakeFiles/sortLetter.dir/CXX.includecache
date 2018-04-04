@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kusstas/GTestSortLetter/GTestSortLetters/Source/main.cpp
+gtest/gtest.h
+-
+sortLetter/sortLetter.h
+/home/kusstas/GTestSortLetter/GTestSortLetters/Source/sortLetter/sortLetter.h
+
+/home/kusstas/GTestSortLetter/GTestSortLetters/Source/sortLetter/sortLetter.cpp
+sortLetter.h
+/home/kusstas/GTestSortLetter/GTestSortLetters/Source/sortLetter/sortLetter.h
+cctype
+-
+
+/home/kusstas/GTestSortLetter/GTestSortLetters/Source/sortLetter/sortLetter.h
+
