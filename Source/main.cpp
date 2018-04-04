@@ -26,10 +26,10 @@ TEST (testValidString, notOnlyLetters)
 
 TEST (testSort, onlyLetters)
 {
-    char str1[256] = "zxakb";
-    char str2[256] = "XZAKB";
-    char str3[256] = "ZXKzxkABab";
-    char str4[256] = "BBABSDDSSzczxzxc";
+    char str1[] = "zxakb";
+    char str2[] = "XZAKB";
+    char str3[] = "ZXKzxkABab";
+    char str4[] = "BBABSDDSSzczxzxc";
 
     ASSERT_EQ(true, sortLetters(str1));
     ASSERT_EQ(true, sortLetters(str2));
@@ -44,8 +44,8 @@ TEST (testSort, onlyLetters)
 
 TEST (testSort, notOnlyLetters)
 {
-    char str1[256] = "zx@#$%^&ak7 67b8 76тор";
-    char str2[256] = "XZAas% $$$#121  32іаіаKB";
+    char str1[] = "zx@#$%^&ak7 67b8 76тор";
+    char str2[] = "XZAas% $$$#121  32іаіаKB";
 
     ASSERT_NO_THROW(sortLetters(str1));
     ASSERT_EQ(false, sortLetters(str2));
