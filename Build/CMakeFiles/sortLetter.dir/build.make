@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kusstas/SortLetter
+CMAKE_SOURCE_DIR = /home/kusstas/Projects/GTestSortLetters
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kusstas/SortLetter/Build
+CMAKE_BINARY_DIR = /home/kusstas/Projects/GTestSortLetters/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sortLetter.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/sortLetter.dir/flags.make
 
 CMakeFiles/sortLetter.dir/Source/main.cpp.o: CMakeFiles/sortLetter.dir/flags.make
 CMakeFiles/sortLetter.dir/Source/main.cpp.o: ../Source/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusstas/SortLetter/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sortLetter.dir/Source/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sortLetter.dir/Source/main.cpp.o -c /home/kusstas/SortLetter/Source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sortLetter.dir/Source/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sortLetter.dir/Source/main.cpp.o -c /home/kusstas/Projects/GTestSortLetters/Source/main.cpp
 
 CMakeFiles/sortLetter.dir/Source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sortLetter.dir/Source/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusstas/SortLetter/Source/main.cpp > CMakeFiles/sortLetter.dir/Source/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusstas/Projects/GTestSortLetters/Source/main.cpp > CMakeFiles/sortLetter.dir/Source/main.cpp.i
 
 CMakeFiles/sortLetter.dir/Source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sortLetter.dir/Source/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusstas/SortLetter/Source/main.cpp -o CMakeFiles/sortLetter.dir/Source/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusstas/Projects/GTestSortLetters/Source/main.cpp -o CMakeFiles/sortLetter.dir/Source/main.cpp.s
 
 CMakeFiles/sortLetter.dir/Source/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/sortLetter.dir/Source/main.cpp.o.provides.build: CMakeFiles/sortLette
 
 CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o: CMakeFiles/sortLetter.dir/flags.make
 CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o: ../Source/sortLetter/sortLetter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusstas/SortLetter/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o -c /home/kusstas/SortLetter/Source/sortLetter/sortLetter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o -c /home/kusstas/Projects/GTestSortLetters/Source/sortLetter/sortLetter.cpp
 
 CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusstas/SortLetter/Source/sortLetter/sortLetter.cpp > CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kusstas/Projects/GTestSortLetters/Source/sortLetter/sortLetter.cpp > CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.i
 
 CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusstas/SortLetter/Source/sortLetter/sortLetter.cpp -o CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kusstas/Projects/GTestSortLetters/Source/sortLetter/sortLetter.cpp -o CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.s
 
 CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o.requires:
 
@@ -118,7 +118,7 @@ sortLetter: CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o
 sortLetter: CMakeFiles/sortLetter.dir/build.make
 sortLetter: /usr/lib/libgtest.a
 sortLetter: CMakeFiles/sortLetter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kusstas/SortLetter/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sortLetter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sortLetter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sortLetter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -136,6 +136,6 @@ CMakeFiles/sortLetter.dir/clean:
 .PHONY : CMakeFiles/sortLetter.dir/clean
 
 CMakeFiles/sortLetter.dir/depend:
-	cd /home/kusstas/SortLetter/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kusstas/SortLetter /home/kusstas/SortLetter /home/kusstas/SortLetter/Build /home/kusstas/SortLetter/Build /home/kusstas/SortLetter/Build/CMakeFiles/sortLetter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kusstas/Projects/GTestSortLetters/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kusstas/Projects/GTestSortLetters /home/kusstas/Projects/GTestSortLetters /home/kusstas/Projects/GTestSortLetters/Build /home/kusstas/Projects/GTestSortLetters/Build /home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles/sortLetter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sortLetter.dir/depend
 

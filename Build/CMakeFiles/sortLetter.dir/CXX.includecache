@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/kusstas/SortLetter/Source/main.cpp
+/home/kusstas/Projects/GTestSortLetters/Source/main.cpp
 gtest/gtest.h
 -
 sortLetter/sortLetter.h
-/home/kusstas/SortLetter/Source/sortLetter/sortLetter.h
+/home/kusstas/Projects/GTestSortLetters/Source/sortLetter/sortLetter.h
 
-/home/kusstas/SortLetter/Source/sortLetter/sortLetter.cpp
+/home/kusstas/Projects/GTestSortLetters/Source/sortLetter/sortLetter.cpp
 sortLetter.h
-/home/kusstas/SortLetter/Source/sortLetter/sortLetter.h
+/home/kusstas/Projects/GTestSortLetters/Source/sortLetter/sortLetter.h
 cctype
 -
 
-/home/kusstas/SortLetter/Source/sortLetter/sortLetter.h
+/home/kusstas/Projects/GTestSortLetters/Source/sortLetter/sortLetter.h
 

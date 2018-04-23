@@ -1,3 +1,0 @@
-/home/kusstas/GTestSortLetter/GTestSortLetters/CMakeFiles/edit_cache.dir
-/home/kusstas/GTestSortLetter/GTestSortLetters/CMakeFiles/rebuild_cache.dir
-/home/kusstas/GTestSortLetter/GTestSortLetters/CMakeFiles/sortLetter.dir

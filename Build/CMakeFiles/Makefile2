@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kusstas/SortLetter
+CMAKE_SOURCE_DIR = /home/kusstas/Projects/GTestSortLetters
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kusstas/SortLetter/Build
+CMAKE_BINARY_DIR = /home/kusstas/Projects/GTestSortLetters/Build
 
 #=============================================================================
 # Target rules for target CMakeFiles/sortLetter.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/kusstas/SortLetter/Build
 CMakeFiles/sortLetter.dir/all:
 	$(MAKE) -f CMakeFiles/sortLetter.dir/build.make CMakeFiles/sortLetter.dir/depend
 	$(MAKE) -f CMakeFiles/sortLetter.dir/build.make CMakeFiles/sortLetter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kusstas/SortLetter/Build/CMakeFiles --progress-num=1,2,3 "Built target sortLetter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles --progress-num=1,2,3 "Built target sortLetter"
 .PHONY : CMakeFiles/sortLetter.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/sortLetter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sortLetter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kusstas/SortLetter/Build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sortLetter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kusstas/SortLetter/Build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles 0
 .PHONY : CMakeFiles/sortLetter.dir/rule
 
 # Convenience name for target.

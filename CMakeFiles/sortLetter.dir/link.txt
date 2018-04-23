@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/sortLetter.dir/Source/main.cpp.o CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o  -o sortLetter -rdynamic -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

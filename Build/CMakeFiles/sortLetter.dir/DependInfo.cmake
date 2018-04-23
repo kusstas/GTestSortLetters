@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kusstas/SortLetter/Source/main.cpp" "/home/kusstas/SortLetter/Build/CMakeFiles/sortLetter.dir/Source/main.cpp.o"
-  "/home/kusstas/SortLetter/Source/sortLetter/sortLetter.cpp" "/home/kusstas/SortLetter/Build/CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o"
+  "/home/kusstas/Projects/GTestSortLetters/Source/main.cpp" "/home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles/sortLetter.dir/Source/main.cpp.o"
+  "/home/kusstas/Projects/GTestSortLetters/Source/sortLetter/sortLetter.cpp" "/home/kusstas/Projects/GTestSortLetters/Build/CMakeFiles/sortLetter.dir/Source/sortLetter/sortLetter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
